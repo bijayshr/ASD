@@ -1,5 +1,9 @@
-Define Liscov's substitution principle? Define Dependency Inversion?
-Draw UML Diagram for Abstract Factory Pattern? Explain it. 
-Can Decorator be Chained?
-Difference between Strategy Pattern vs Template Method Pattern
+1. Define Liscov's substitution principle? Define Dependency Inversion?
+2. Draw UML Diagram for Abstract Factory Pattern? Explain it.
+3. Can Decorator be Chained? -> Yes. Describe the wrapper mechanism that the Decorator does with the Component it intends to decorate.
+4. Difference between Strategy Pattern vs Template Method Pattern
+5. Why Command Pattern has double-abstraction? -> Invoker doesn't have a clue about Receiver. And Command Interface has all the abstract method so Invoker doesn't know what type of method call to expect.
+6. Is Collection.stream() method polymorphic? -> Yes.
+7. What design pattern do you see in Iterable interface? -> Iterator and Template Method.
+
 
