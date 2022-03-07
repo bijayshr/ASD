@@ -1,0 +1,2 @@
+Focus on UML Diagrams of each pattern along with it's description and definition.
+
