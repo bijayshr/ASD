@@ -1,0 +1,5 @@
+Define Liscov's substitution principle? Define Dependency Inversion?
+Draw UML Diagram for Abstract Factory Pattern? Explain it. 
+Can Decorator be Chained?
+Difference between Strategy Pattern vs Template Method Pattern
+
