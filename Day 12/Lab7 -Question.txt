@@ -1,0 +1,15 @@
+Instructions
+
+Rewrite the example that we saw this morning (Hire, Employee, Manager implemented using Composite design pattern) and then add the following abstract method to Hire:
+
+public abstract void accept(Consumer<? extends Hire> action);
+
+and provide an implementation for it in Employee and Manager.
+
+See if you can write a HireCounterConsumer (that implements Consumer<? extends Hire>) and pass it to the CEO to count the number of "Hires" (employees + managers) in the whole company.
+
+Also, using the same method, write a Concrete Consumer to calculate the salary of all the employees.
+
+
+
+Hint: Hire is like Component, Employee is like Leaf and Manager is like Composite.
