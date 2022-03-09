@@ -1,2 +1,4 @@
 Focus on UML Diagrams of each pattern along with it's description and definition.
+Difference between Factory Method and Abstract Factory Pattern.
+Read about Similarities and differences between different patterns.
 
