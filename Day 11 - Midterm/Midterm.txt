@@ -1,4 +1,6 @@
-1. Define Liscov's substitution principle? Define Dependency Inversion?
+#Based on my memory: These are question that I remember that were asked
+
+1. Define Liskov's substitution principle? Define Dependency Inversion?
 2. Draw UML Diagram for Abstract Factory Pattern? Explain it.
 3. Can Decorator be Chained? -> Yes. Describe the wrapper mechanism that the Decorator does with the Component it intends to decorate.
 4. Difference between Strategy Pattern vs Template Method Pattern
