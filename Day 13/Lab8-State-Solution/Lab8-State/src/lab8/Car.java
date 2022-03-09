@@ -29,8 +29,17 @@ public class Car {
     }
 
     public int changeSpeed(int speed){
+        System.out.println("state :: " + this.state);
         this.speed = speed;
-        if(speed > 0 && speed < 5){
+        determineState(speed);
+        state.changeSpeed(speed);
+        return state.getGearNumber();
+    }
+
+    private void determineState(int speed) {
+        if(speed == 0){
+            state = gearZero;
+        }else if(speed > 0 && speed < 5){
             state = gearOne;
         }else if(speed > 5 && speed < 10){
             state = gearTwo;
@@ -43,9 +52,8 @@ public class Car {
                 state = gearFive;
             }
         }
-        state.changeSpeed(speed);
-        return state.getGearNumber();
     }
+
 
     void setState(State state){
         this.state = state;
