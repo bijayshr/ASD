@@ -10,7 +10,7 @@ public class Lab08 extends javax.swing.JFrame
 	 * State Pattern Lab
 	 */
 	private static final long serialVersionUID = -5614553291522761426L;
-	Car mycar = new Car();
+	Car mycar = new Car(0);
     
 	public Lab08()
 	{
