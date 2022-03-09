@@ -1,0 +1,2 @@
+The State Pattern Explained and Implemented in Java | Behavioral Design Patterns | Geekific
+https://www.youtube.com/watch?v=abX4xzaAsoc
