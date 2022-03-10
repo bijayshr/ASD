@@ -3,7 +3,7 @@ package visitor;
 import java.util.function.Supplier;
 
 public class TotalCollector implements Visitor, Supplier<Double> {
-    private Component totalValue;
+    private Component totalValueComponent;
     private double val=0;
 
     @Override
@@ -17,8 +17,8 @@ public class TotalCollector implements Visitor, Supplier<Double> {
     }
 
     private void visitTotal(Component component){
-        if(totalValue == null){
-            totalValue = component;
+        if(totalValueComponent == null){
+            totalValueComponent = component;
             val = component.getValue();
         }else{
             val += component.getValue();
