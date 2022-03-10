@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="zipInput">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/zipInput.zip!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
