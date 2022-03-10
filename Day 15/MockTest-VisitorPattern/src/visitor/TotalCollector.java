@@ -2,7 +2,7 @@ package visitor;
 
 import java.util.function.Supplier;
 
-public class TotalCollector implements Visitor, Supplier<Component> {
+public class TotalCollector implements Visitor, Supplier<Double> {
     private Component totalValue;
     private double val=0;
 
@@ -27,8 +27,8 @@ public class TotalCollector implements Visitor, Supplier<Component> {
     }
 
     @Override
-    public Component get() {
+    public Double get() {
         System.out.println("Total Value :: " + val);
-        return totalValue;
+        return val;
     }
 }
